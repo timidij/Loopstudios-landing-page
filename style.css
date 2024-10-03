@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+:root{
+    --Black: hsl(0, 0%, 0%);
+    --DarkGray: hsl(0, 0%, 55%);
+    --VeryDarkGray: hsl(0, 0%, 41%);
+}
+/* .hero {
+    background-image: url("/images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    
+
+} */
+.radar{
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    /* background-size: ; */
+    
+    flex-direction: column;
+    height: 600px;
+    padding: 40px;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    color: white;
+
+   
+}
+nav >a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+}
+.logo{
+    display: flex;
+
+}
+.immerse{
+   margin-top: 100px; 
+   padding: 10px;
+   border: 2px solid white;
+   font-size: 4rem;
+   width: 450px;
+   text-transform: uppercase;
+}
+.lead{
+    display: flex;
+    position: relative;
+    padding: 100px;
+}
+.text{
+    background-color: white;
+    width: 500px;
+    /* height: 150px; */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    justify-content: space-between;
+    color: var(--DarkGray);
+    
+}
+.text> h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: var(--VeryDarkGray);
+}
+.creation{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    color: var(--DarkGray);
+    margin: 100px 150px;
+}
+.creation> h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.creation> button{
+    padding: 5px 10px;
+    width: 100px;
+}
+.top{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.top >div{
+    position: relative;
+}
+
+.top> div >h3{
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 30%;
+    font-size: 2.5rem;
+}
+.collection{
+    margin-bottom: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    padding: 20px;
+}
+.social >a{
+    margin-right: 10px;
+}
+
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer_nav > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 30px;
+}
+
+
+
+
